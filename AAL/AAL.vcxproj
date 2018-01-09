@@ -55,6 +55,9 @@
   <ItemGroup>
     <Font Include="resources\arial.ttf" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\readme.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{EBA5EBB5-54CE-42B0-8B73-99EABA8B90CD}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>

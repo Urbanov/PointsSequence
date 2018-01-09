@@ -31,12 +31,13 @@ static constexpr char DETAILED_HELP[] = R"(Available modes:
 1. Read problem instance from stdin and solve it using algorithms specified in --alg. Result is presented on a plot or, with --txt option, displayed in the console as a list of points.
 
 Data syntax:
-width   height
-x1      y1      weight1
-.       .       .
-.       .       .
-.       .       .
-xN      yN      weightN
+max_width       max_height
+point_1_x       point_1_y         point_1_weight
+.               .                 .
+.               .                 .
+.               .                 .
+point_n_x       point_n_y         point_n_weight
+
 
 2. Generate problem instance with given size and solve it using algorithms specified in --alg. Result is presented on a plot or, with --txt option, displayed in the console as a list of points.
 
