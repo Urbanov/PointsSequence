@@ -32,7 +32,7 @@ private:
 	}
 
 public:
-	SegmentTree(int size)
+	explicit SegmentTree(int size)
 	{
 		m_root = createNode(0, size - 1);
 		auto ptr = m_root;
@@ -46,7 +46,7 @@ public:
 	{
 		auto current = m_root;
 		
-		for(;;) {
+		for (;;) {
 			if (obj > current->data) {
 				current->data = obj;
 			}
